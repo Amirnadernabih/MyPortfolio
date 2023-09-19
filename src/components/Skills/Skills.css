@@ -1,0 +1,178 @@
+
+.skills h1{
+  color: #4F4F4F;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.skills div{
+   
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    transition: 0.6s;
+    
+}
+
+
+main .pp{
+    text-align: center;
+    color: rgba(128, 128, 128, 0.548);
+    flex-wrap:wrap ;
+}
+.skills .html {
+    color: red;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills .css {
+    color: blue;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .skills .js {
+    color: yellow;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills .bst {
+    color: #6601ff;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills .tailwind {
+    color: mediumspringgreen;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills .sass {
+    color: pink;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills .react {
+    color: #61DAFB;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills .redux {
+    color: #6601ff;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills .github {
+    color: #171515;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills .git {
+    color: #2B2B2B;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills .next {
+    color: lime;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+.skills .carousel div:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 650px) {
+
+
+  .skills .html {
+    font-size: 8em;
+  }
+  
+  .skills .css {
+    font-size: 8em;
+
+  }
+  
+  .skills .js {
+    font-size: 8em;
+  }
+  
+  .skills .bst {
+    font-size: 8em;
+  }
+  
+  .skills .tailwind {
+    font-size: 8em;
+  }
+  
+  .skills .sass {
+    font-size: 8em;
+  }
+  
+  .skills .react {
+    font-size: 8em;
+  }
+  
+  .skills .redux {
+    font-size: 8em;
+  }
+  
+  .skills .github {
+    font-size: 8em;
+  }
+  
+  .skills .git {
+    font-size: 8em;
+  }
+  
+  .skills .next {
+    font-size: 8em;
+  }
+  .skills h1{
+    
+  font-size: 30px;
+  font-weight: 700;
+  
+}
+}
+

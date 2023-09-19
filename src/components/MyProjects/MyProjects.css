@@ -1,0 +1,44 @@
+.car-ship{
+width:  400px;
+border: none;
+box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.467);
+border-radius: 6px;
+margin: 30px;
+
+}
+
+.Todo_watch{
+    width: 360px;
+    border: none;
+    box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.467);
+    border-radius: 6px;
+    margin: 30px;
+}
+
+.car-ship:hover{
+    transform: scale(1.15);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+ 
+    }
+    
+    .Todo_watch:hover{
+        transform: scale(1.15);
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+
+    @media screen and (min-width:0px) and (max-width: 450px) {
+        .car-ship{
+            width:  320px;
+            margin: 30px;
+            
+            }
+            
+            .Todo_watch{
+                width: 300px;
+                margin: 30px;
+            }
+      }
+      
