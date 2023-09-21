@@ -5,17 +5,16 @@ import './Aboutme.css'
 import { BiLogoFacebook } from 'react-icons/bi';
 import { BiLogoLinkedin } from 'react-icons/bi';
 import { BsGithub} from 'react-icons/bs';
-import { Container } from 'react-bootstrap';
+
 
 const Aboutme = () => {
   
 
   return (
     <main className='Aboutme'>
-      <Container>
-      <div className='row'>
-         <div className="col m-4">
-         <h6>Hi I am</h6>
+      
+        <div>
+          <h6>Hi I am</h6>
           <h4>Amir Nader</h4>
           <h1>SOFTWARE</h1>
           <h2>ENGINEER</h2>
@@ -26,9 +25,8 @@ const Aboutme = () => {
               props, state, and hooks. I am also proficient 
               in React,JavaScript, HTML, and CSS.</p>
           <Button variant="danger">Hire Me</Button>{''}
-         </div>
-      </div>
-        <div className='col  picsection '>
+        </div>
+        <div>
         <img src={AmirPic} alt='mypic'/>
         <div className='icons' >
             <a href='https://www.facebook.com/amir.nader.52' className='fb' >
@@ -45,7 +43,6 @@ const Aboutme = () => {
             
         </div>
         </div>
-      </Container>
     </main>
   )
 }

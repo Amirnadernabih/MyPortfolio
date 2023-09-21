@@ -1,4 +1,10 @@
-
+.Aboutme{
+    display: flex;
+    margin: 150px;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+}
 .Aboutme button{
     background-color: #fd6e00;
     border-style: none;
@@ -10,12 +16,6 @@
 }
 .aboutmeP{
     flex-wrap:wrap;
-}
-.picsection{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .Aboutme img{
     border-radius: 485.868px;
@@ -76,7 +76,10 @@
   }
   
   @media screen and (max-width: 875px) {
-    
+    .Aboutme {
+        flex-direction: column;
+        margin: 80px;
+    }
     .Aboutme h1{
         font-weight: 700;
         font-size: 50px;
