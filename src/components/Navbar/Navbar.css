@@ -1,47 +1,54 @@
-.navbar-toggler-icon{
-    background-color: #fd6e00;
-}
 
-.left{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.MYNAME{
+    gap: 10px;
 }
-.left span{
+.navbar-light .navbar-toggler-icon {
+    background-image: var(--mdb-navbar-toggler-icon-bg) !important;
+    
+}
+.header{
+    font-size: 30px;
+    font-weight: 600;
+    margin: auto;
+   
+}
+.myname span{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.64);
     font-weight: 350;
 }
-.left a{
+.myname a{
     text-decoration: none;
     color: black;
     font-weight: 350;
 }
-.left a:hover{
-    text-decoration: none;
-    color: black;
-    font-weight: 350;
-}
-.me-auto button{
-    background-color: #fd6e00;
-   
+
+.Menu Button{
+    background-color: #ff6f00;
     box-shadow: 1px 1px 10px 3px rgba(128, 128, 128, 0.311);
 }
-.me-auto button:hover{
+.Menu  Button:hover{
     background-color: #db5f00;
     transition: 900;
 }
-.me-auto{
+
+.Menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
+    color: black;
 }
-.me-auto .menu{
+
+.Menu .menu{
     color: black;
     position: relative;
     display: block;
     transition: 0.5s;
     cursor: pointer;
 }
-.me-auto .menu::after{
+.Menu .menu::after{
     position: absolute;
     content:"";
     width: 100%;
@@ -53,10 +60,10 @@
     transform-origin: right;
     background-color: #fd6e00;
 }
-.me-auto .menu:hover{
+.Menu .menu:hover{
     color: #fd6e00;
 }
-.me-auto .menu:hover::after{
+.Menu .menu:hover::after{
     transform: scaleX(1);
     transform-origin: left;
 }

@@ -43,8 +43,14 @@ form {
     input[type="submit"] {
       margin-top: 2rem;
       cursor: pointer;
-      background: rgb(249, 105, 14);
+      background:  #fd6e00;
       color: white;
       border: none;
+      box-shadow: 1px 1px 10px 3px rgba(128, 128, 128, 0.311);
+    }
+
+    input[type="submit"]:hover {
+      background-color: #db5f00;
+    transition: 900;
     }
   

@@ -1,10 +1,10 @@
-import React, {  useRef } from 'react';
+import React, {  useRef} from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactMe.css'
 import { motion } from "framer-motion"
 
 const ContactMe = () => {
-
+  
 
     const form = useRef();
 
@@ -18,7 +18,7 @@ const ContactMe = () => {
         'MCbOYxZCTkD57wfy2')
         .then((result) => {
             console.log(result.text);
-            alert('Message Sent Successfuly')
+            alert('Message has been sent successfully')
         }, (error) => {
             console.log(error.text);
         });
@@ -27,11 +27,8 @@ const ContactMe = () => {
     }
 
   return (
-
-
     <main>
-
-   <motion.div
+       <motion.div
    initial={{opacity:0 , scale:0}}
    whileInView={{opacity:1,scale:1}}
    transition={{duration: 1}}
@@ -43,8 +40,8 @@ const ContactMe = () => {
     Tristique amet sed massa nibh lectus netus in.
      Aliquet donec morbi convallis pretium</p>
 
-   </motion.div>
-<motion.div 
+       </motion.div>
+       <motion.div 
 initial={{opacity:0 , scale:0}}
 whileInView={{opacity:1,scale:1 ,x:1}}
 transition={{duration: 1}}
@@ -59,8 +56,7 @@ viewport={{once:true}}
       <textarea name="message" placeholder='Your Message Here...'/>
       <input type="submit" value="Send" />
 </form>
-</motion.div>
-
+       </motion.div>
     </main>
   )
 }

@@ -22,9 +22,9 @@ function App () {
     <div>
       <NavBar />
       <Aboutme  />
-      <Skills   />
+      <Skills  />
       <Services />
-      <MyProjects />
+      <MyProjects  />
       <ContactMe />
       <Footer/>
     </div>

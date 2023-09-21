@@ -1,10 +1,4 @@
-.Aboutme{
-    display: flex;
-    margin: 150px;
-    text-align: start;
-    justify-content: center;
-    align-items: center;
-}
+
 .Aboutme button{
     background-color: #fd6e00;
     border-style: none;
@@ -16,6 +10,12 @@
 }
 .aboutmeP{
     flex-wrap:wrap;
+}
+.picsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .Aboutme img{
     border-radius: 485.868px;
@@ -40,39 +40,32 @@
 }
 .icons{
     text-align: center;
+    cursor: pointer;
+    
+    
 }
 .icons .fb{
-color: #0072b1;
+ 
+    color: #000000;
 }
-.icons .ig{
-    color: #E1306C;
-}
+
 .icons .in{
-    color: #0e76a8;
+  
+    color: #000000;
 }
+
 .icons .gt{
-    color: #4078c0;
+    color: #000000;
 }
 .icons a{
-    margin: 0 30px;
+    margin: 0 22px;
     border-radius: 50%;
-    box-sizing: border-box;
-    background-color: #fff;
-    width: 100px;
-    height: 100px;
     text-decoration: none;
-    transition: 0.6s;
-    font-size: 2.5em;
+    font-size: 2.3em;
+    border: none;
+   
 }
-.icons a:hover{
-    background:  var(--color);
-    color: #050801;
-    box-shadow: 0 0 5px var(--color),
-    0 0 25px var(--color),
-    0 0 50px var(--color),
-    0 0 200px var(--color)
-    ;
-}
+
 
 
 
@@ -83,10 +76,7 @@ color: #0072b1;
   }
   
   @media screen and (max-width: 875px) {
-    .Aboutme {
-        flex-direction: column;
-        margin: 80px;
-    }
+    
     .Aboutme h1{
         font-weight: 700;
         font-size: 50px;

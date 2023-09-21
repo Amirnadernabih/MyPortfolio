@@ -20,7 +20,7 @@ export const Footer = () => {
             floating
             size="lg"
             className='text-dark m-1'
-            href='#!'
+            href='https://www.facebook.com/amir.nader.52'
             role='button'
           >
             <MDBIcon fab className='fab fa-facebook-f' />
@@ -36,7 +36,7 @@ export const Footer = () => {
             floating
             size="lg"
             className='text-dark m-1'
-            href='#!'
+            href='https://www.instagram.com/amir_nader055/'
             role='button'
           >
             <MDBIcon fab className='fa-instagram' />
@@ -48,7 +48,7 @@ export const Footer = () => {
             floating
             size="lg"
             className='text-dark m-1'
-            href='#!'
+            href='https://www.linkedin.com/in/amir-nader-43a18624a'
             role='button'
           >
             <MDBIcon fab className='fa-linkedin' />
@@ -60,7 +60,7 @@ export const Footer = () => {
             floating
             size="lg"
             className='text-dark m-1'
-            href='#!'
+            href='https://github.com/Amirnadernabih'
             role='button'
           >
             <MDBIcon fab className='fa-github' />

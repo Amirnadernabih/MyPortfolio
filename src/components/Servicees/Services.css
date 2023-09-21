@@ -1,3 +1,5 @@
+
+
 .Services{
     display: flex;
     align-items: center;
@@ -27,8 +29,9 @@ main{
 }
 .serviceflex{
     display: flex;
-    justify-content: center;
+    justify-content:left;
     align-items: center;
+    text-align: center;
     gap: 10px;
     margin: 10px;
 }

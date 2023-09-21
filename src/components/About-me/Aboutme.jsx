@@ -3,42 +3,41 @@ import Button from 'react-bootstrap/Button';
 import AmirPic from "../About-me/photos/IMG_3057-removebg-preview.png"
 import './Aboutme.css'
 import { BiLogoFacebook } from 'react-icons/bi';
-import { BsInstagram } from 'react-icons/bs';
 import { BiLogoLinkedin } from 'react-icons/bi';
 import { BsGithub} from 'react-icons/bs';
-import { motion } from "framer-motion"
+import { Container } from 'react-bootstrap';
 
 const Aboutme = () => {
   
 
   return (
     <main className='Aboutme'>
-        <div >
-        <h6>Hi I am</h6>
-        <h4>Amir Nader</h4>
-        <h1>FRONT-END</h1>
-        <h2>DEVELOPER</h2>
-        <p className='aboutmeP'>I am a React developer with a passion 
-            for building user-friendly and interactive 
-            web applications. I have a strong understanding 
-            of React fundamentals, including components, 
-            props, state, and hooks. I am also proficient 
-            in React,JavaScript, HTML, and CSS.</p>
-        <Button variant="danger">Hire Me</Button>{''}
-        </div>
-        <div>
+      <Container>
+      <div className='row'>
+         <div className="col m-4">
+         <h6>Hi I am</h6>
+          <h4>Amir Nader</h4>
+          <h1>SOFTWARE</h1>
+          <h2>ENGINEER</h2>
+          <p className='aboutmeP'>I am a React developer with a passion 
+              for building user-friendly and interactive 
+              web applications. I have a strong understanding 
+              of React fundamentals, including components, 
+              props, state, and hooks. I am also proficient 
+              in React,JavaScript, HTML, and CSS.</p>
+          <Button variant="danger">Hire Me</Button>{''}
+         </div>
+      </div>
+        <div className='col  picsection '>
         <img src={AmirPic} alt='mypic'/>
         <div className='icons' >
-            <a href='##' className='fb' >
+            <a href='https://www.facebook.com/amir.nader.52' className='fb' >
            <BiLogoFacebook />
             </a>
-            <a href='##' className='ig' >
-           < BsInstagram />  
-           </a>
-            <a href='##' className='in' >
+            <a href='https://www.linkedin.com/in/amir-nader-43a18624a' className='in' >
            < BiLogoLinkedin />
            </a>
-           <a href='##' className='gt' >
+           <a href='https://github.com/Amirnadernabih' className='gt' >
            < BsGithub />
            </a>
            
@@ -46,6 +45,7 @@ const Aboutme = () => {
             
         </div>
         </div>
+      </Container>
     </main>
   )
 }
