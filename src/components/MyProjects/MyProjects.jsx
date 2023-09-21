@@ -59,16 +59,16 @@ viewport={{once:true}}
      Aliquet donec morbi convallis pretium</motion.p>
   <Slider {...settings} responsive={responsiveSettings} className='Slider'>
           <div>
-            <h5><img src={Carwebsite} alt='car' className='car-ship' /></h5>
+            <h5><a href="https://carwebsite-roan.vercel.app/"><img src={Carwebsite} alt='car' className='car-ship' /></a></h5>
           </div>
           <div>
-          <h5><img src={Shipwebsite} alt='Ship' className='car-ship' /></h5>
+          <h5><a href="https://competition-1-henna.vercel.app/"><img src={Shipwebsite} alt='Ship' className='car-ship' /></a></h5>
           </div>
           <div>
-          <h5><img src={Todowebsite} alt='Todo' className='Todo_watch' /></h5>
+          <h5><a href="https://to-do-list-iota-orpin.vercel.app/"><img src={Todowebsite} alt='Todo' className='Todo_watch' /></a></h5>
           </div>
           <div>
-          <h5><img src={Watchwebsite} alt='Watch' className='Todo_watch' /></h5>
+          <h5><a href="https://watchbrand.vercel.app/#"><img src={Watchwebsite} alt='Watch' className='Todo_watch' /></a></h5>
           </div>
           
         </Slider>
